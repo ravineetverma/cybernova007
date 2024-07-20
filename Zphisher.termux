@@ -1,0 +1,27 @@
+INSTALL ZPHISHER FOLLOW INSTRUCTIONS...
+Zphisher is a phishing tool that automates the process of creating phishing pages for popular websites. To use Zphisher in Termux (a terminal emulator for Android), you need to follow a series of steps to install Termux, install necessary dependencies, and then clone and run Zphisher. Here’s a step-by-step guide:
+
+Step-by-Step Guide to Install and Run Zphisher in Termux
+1. Install Termux
+First, download and install Termux from the Google Play Store or F-Droid.
+
+2. Update and Upgrade Termux Packages
+Open Termux and update the package lists and upgrade all the installed packages:
+pkg update && pkg upgrade -y
+3. Install Required Packages
+Install git, php, and openssh which are required to run Zphisher:
+pkg install git php openssh -y
+4. Clone the Zphisher Repository
+Clone the Zphisher repository from GitHub:
+git clone https://github.com/htr-tech/zphisher
+5. Navigate to the Zphisher Directory
+Change to the Zphisher directory:
+cd zphisher
+7. Run Zphisher
+Run the Zphisher script:
+./zphisher.sh
+8. Follow On-Screen Instructions
+Follow the on-screen instructions to select the target website and set up the phishing page.
+
+Important Note
+Using phishing tools for unauthorized activities is illegal and unethical. This guide is intended for educational purposes only to help understand how phishing attacks work so you can better protect against them. Always use such tools responsibly and legally.
